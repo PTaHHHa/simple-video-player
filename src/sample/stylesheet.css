@@ -1,36 +1,37 @@
 .button{
     -fx-background-size: 20 30;
+    -fx-background-color: transparent;
 }
 #PlayButton{
-    -fx-background-image: url("../images/play.png");
+    -fx-background-image: url("../images/PlayButton.jpg");
     -fx-background-size: 20 30;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 #PauseButton{
-    -fx-background-image: url("../images/pause.png");
+    -fx-background-image: url("../images/PauseButton.png");
     -fx-background-size: 20 30;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 #StopButton{
-    -fx-background-image: url("../images/stop.png");
+    -fx-background-image: url("../images/StopButton.png");
     -fx-background-size: 20 30;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 #OpenFile{
-    -fx-background-image: url("../images/upload.png");
+    -fx-background-image: url("../images/OpenFile.png");
     -fx-background-size: 20 30;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 #MuteButton{
-    -fx-background-image: url("../images/Mute.png");
+    -fx-background-image: url("../images/MuteButton.png");
     -fx-background-size: 20 30;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
