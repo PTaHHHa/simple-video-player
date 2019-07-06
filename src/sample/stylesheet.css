@@ -1,6 +1,19 @@
+#VolumeSlider{
+    -fx-show-tick-labels: true;
+}
 .button{
     -fx-background-size: 20 30;
     -fx-background-color: transparent;
+    -fx-border-radius: 50px;
+    -fx-border-width:2px 2px;
+}
+.slider{
+    -fx-font-style: ITALIC;
+    -fx-color:BLACK;
+    -fx-progress-color: BLACK;
+    -fx-font-size: 15px;
+    -fx-font-weight: 20px;
+    -fx-tick-label-fill: rgb(255,0,0);
 }
 #PlayButton{
     -fx-background-image: url("../images/PlayButton.jpg");
@@ -8,7 +21,6 @@
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
-
 #PauseButton{
     -fx-background-image: url("../images/PauseButton.png");
     -fx-background-size: 20 30;
